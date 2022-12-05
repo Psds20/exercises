@@ -1,5 +1,5 @@
-n1 = float(input("Quantos R$ você tem na carteira:"))
+n1 = float(input("how much R$(reais) do you have in your wallet:"))
 
 result = n1 // 4.16
 
-print("você pode comprar {} dolares".format(result))
+print("you can buy {} dolars".format(result))

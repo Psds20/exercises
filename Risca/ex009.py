@@ -1,5 +1,5 @@
-n1 = int(input("Digite um número que vocêquer saber a tabuada: "))
-print("A tabuada de ", n1)
+n1 = int(input("type the number you know to want the multiplication table: "))
+print("the table of ", n1)
 print("="*10)
 
 print(n1 * 1)

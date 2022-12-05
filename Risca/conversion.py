@@ -39,3 +39,8 @@ elif n1 == 7:
     rsl = li * a * t
 
     print("the value of ▲L is {} ".format(rsl))
+else:
+    print("\033[1;31m___________________________________")
+    print(" ")
+    print("            Incorret              ")
+    print("___________________________________\033[m")

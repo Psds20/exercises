@@ -1,6 +1,6 @@
-n1 = int(input("Digite um valor em metros que você queira convertido em centimetros e em milimetros: "))
+n1 = int(input("type the value in meters you want convert in centimeters and milimeters: "))
 
-result = n1 * 10
-result2 = n1 * 100
+cent = n1 * 10
+mili = n1 * 100
 
-print("A conversão vai ficar respectivamente {}cm e {}mm".format(result, result2))
+print("the conversion will be respectively {}cm e {}mm".format(cent, mili))

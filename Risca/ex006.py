@@ -1,7 +1,7 @@
-n1 = int(input("Digite um número que você queira saber o dobro o triplo e a raiz quadrada: "))
+n1 = int(input("type the number you want to know the double, triple and the square root: "))
 
-result = n1 * 2
-result1 = n1 * 3
-result2 = n1 ** (1/2)
+dobl = n1 * 2
+trpl = n1 * 3
+sqrroot = n1 ** (1/2)
 
-print("O dobro é {} e o tripo {} e a raiz quadrada é {}".format(result, result1, result2))
+print("the double is {}, the triple is {} and the square root is {}".format(dobl, trpl, sqrroot))

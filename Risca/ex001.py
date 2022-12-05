@@ -1,6 +1,6 @@
 import emoji
-print(emoji.emojize("\33[1;33mOlá mundo \033[m:sunglasses:",use_aliases=True))
-print('\033[1;33mEstou aprendendo Python em 25/09/2019')
+print(emoji.emojize("\033[m:sunglasses:"))
+print("\033[1;33mHello word. I a'm learning python in 09/25/2019")
 
 
 

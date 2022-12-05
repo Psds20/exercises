@@ -1,11 +1,7 @@
-soma = int(input("Digite o primeiro número que voce quer somar: "))
-soma2 = int(input("Digite o segundo número que você quer somar:"))
+sum1 = int(input("type the first number that you want sum: "))
+sum2 = int(input("type the second number that you want sum:"))
 
-
-
-result = soma + soma2
-
-# print("O resultado da soma entre", soma ,"e" , soma2 ,"é", result)
-
-print("A soma entre {} e {} é igual a {}".format(soma, soma2, result))
+result = sum1 + sum2
+# print("The result of sum between ", sum1 ," and " , sum2 ,"is ", result)
+print("The sum between {} and {} is equal to {}".format(sum1, sum2, result))
 

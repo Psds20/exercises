@@ -1,7 +1,7 @@
-n1 = int (input("Digite a primeira nota do aluno:"))
-n2 = int (input("Digite a segunda nota do aluno: "))
+note1 = float(input("type the first student's note:"))
+note2 = float(input("type the second student's note: "))
 
 
-result = (n1 + n2) / 2
+result = (note1 + note2) / 2
 
-print("A media do aluno foi ", result)
+print("the student's average  is ", result)
