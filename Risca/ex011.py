@@ -1,8 +1,8 @@
-n1 = int(input("Digite a largura da parede em metros: "))
-n2 = int(input("Digite a altura da parede em metros: "))
+n1 = int(input("type a width of the wall in meters: "))
+n2 = int(input("type a height of the wall in meters: "))
 
 
-result = n1 * n2
-result2 = result / 2
+area = n1 * n2
+paint = area / 2
 
-print("A Area da parede é equivalente a {}M e ele vai usar {} L de tinta".format(result, result2))
+print("The Wall Area is equivalent to {}M and it will use {}L of paint".format(area, paint))

@@ -1,8 +1,8 @@
 from math import(pow, sqrt)
-n1 = int(input("Digite o valor de CA (cateto adjascente): "))
-n2 = int(input("Digite o valor de CO (cateto oposto): "))
+al = int(input("type the value of AL (adjacent leg): "))
+ol = int(input("type the value of OL (opossite leg): "))
 
-res = (pow(n1, 2)) + (pow(n2, 2))
-rsl = (sqrt(res))
+sum1 = (pow(al, 2)) + (pow(ol, 2))
+rsl = (sqrt(sum1))
 
-print("o valor de CA é {} e de CO é {} e a hipotenusa deles resulta em {}".format(n1, n2, rsl))
+print("the value of AL is {}, OL is {} and the hypotenuse of them result in {}".format(al, ol, rsl))

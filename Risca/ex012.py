@@ -1,3 +1,3 @@
-n1 = float(input("Digite um preço que voce queira saber ele com 5 porcento de desconto: "))
-result = n1 - (n1 * 0.05)
-print("O valor com desconto é {}".format(result))
+n1 = float(input("type the price you want to know with 5 porcent of dicount: "))
+dis = n1 - (n1 * 0.05)
+print("The value with discount is {}".format(dis))

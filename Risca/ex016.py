@@ -1,6 +1,6 @@
 import math
 
-n1 = float(input("Digite um número qualquer: "))
+n1 = float(input("type a number: "))
 
 result = math.trunc(n1)
-print("A porção inteira é {}R$".format(result))
+print("the entire number is {}R$".format(result))

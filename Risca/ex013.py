@@ -1,3 +1,3 @@
-n1 = int(input("Digite o valor do salario que tem de ser aumentado em 15 porcento"))
-result = n1 + (n1 * (15/100))
-print("O valor do salario com aumento de 15 porcento é {}".format(result))
+n1 = float(input("type the value of the wage it have raise in 15 porcent: "))
+wag = n1 + (n1 * (15/100))
+print("the value of wage with increase of 15 porcent is {}".format(wag))

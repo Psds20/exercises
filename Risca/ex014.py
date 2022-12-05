@@ -1,3 +1,3 @@
-n1 = int(input("Informe a temperatura em C°: "))
-result = n1 * 1.8
-print("A temperatura de {}C° equivalem a {}°F ".format(n1, result))
+n1 = int(input("type the temperature in C°: "))
+fahre = n1 * 1.8
+print("the temperature of {}C° is equivalent in {}°F ".format(n1, fahre))
