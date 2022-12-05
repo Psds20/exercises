@@ -1,0 +1,3 @@
+leitura de linha
+direto no java
+kkkkk
