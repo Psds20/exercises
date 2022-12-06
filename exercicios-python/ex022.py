@@ -1,15 +1,15 @@
-n1 = input("Digite o seu nome completo: ").strip()
+n1 = input("type your complete name: ").strip()
 
-maiuscula = n1.upper()
+upper = n1.upper()
 
-print(maiuscula)
+print(upper)
 
-minuscula = n1.lower()
+lower = n1.lower()
 
-print(minuscula)
+print(lower)
 
 lista = n1.split()
 
-print("O seu nome Completo tem {} letras".format(len("".join(lista))))
+print("the complete name has {} letters".format(len("".join(lista))))
 
-print("O seu primeiro nome é {} e possui {} letras".format(lista[0], len(lista[0])))
+print("the firt's name is {} and it has {} letters".format(lista[0], len(lista[0])))

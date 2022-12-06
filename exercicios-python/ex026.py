@@ -1,9 +1,9 @@
-frase = str(input("Digite uma frase: ").strip().upper())
+frase = str(input("type a phrase: ").strip().upper())
 
-print("A frase tem {} letra A ".format(frase.count("A")))
+print("the phrase has {} letter A ".format(frase.count("A")))
 
 pla = frase.find('A') + 1
 ula = frase.rfind('A') + 1
 
-print("A primeira letra A apareceu na posição {}".format(pla))
-print("A ultima letra A apareceu na posição {}".format(ula))
+print("the first letter A appeared in position {}".format(pla))
+print("the last letter A appeared in position {}".format(ula))

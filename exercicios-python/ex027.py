@@ -1,3 +1,3 @@
-n1 = str(input("Digite o seu nome completo: ")).strip().split()
-print("O seu primeiro nome é: {}".format(n1[0]))
-print("O seu ultimo nome é: {} ".format(n1[-1]))
+n1 = str(input("type your complete name:: ")).strip().split()
+print("the first name is: {}".format(n1[0]))
+print("the last name is: {} ".format(n1[-1]))

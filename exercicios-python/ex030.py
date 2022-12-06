@@ -1,11 +1,11 @@
-n1 = int(input("Digite um número qualquer: "))
+n1 = int(input("type any number: "))
 
 
 if n1 % 2 == 0:
-    print("O número {} é par".format(n1))
+    print("the number {} is even".format(n1))
 else:
-    print("O número {} é impar".format(n1))
+    print("the number {} is  odd".format(n1))
 
 
 print('======================================')
-print('FIM!!!!!!!!!!!!')
+print('END!!!!!!!!!!!!')

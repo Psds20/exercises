@@ -1,12 +1,10 @@
-numero = int(input("Digite um número de 0 a 9999: "))
-u = numero // 1 % 10
-d = numero // 10 % 10
-c = numero // 100 % 10
-m = numero // 1000 % 10
+numero = int(input("type a number between 0 and 9999: "))
+units = numero // 1 % 10
+tens = numero // 10 % 10
+hun = numero // 100 % 10
+tho = numero // 1000 % 10
 
-
-
-print("o numero digitado tem {} milhar, {} centena, {} dezena e {} unidades ".format(u, d, c, m))
+print("the number typed has {} thousands, {}hundreds, {} tens e {} units ".format(tho, hun, tens, units))
 
 
 
