@@ -1,15 +1,15 @@
 from datetime import date
-n1 = int(input("Digite o seu ano de nascimento: "))
+n1 = int(input("Type the year of your birthday: "))
 ano = date.today().year
 rsl = (ano - n1) - 18
 
 if rsl < 0:
     neg = rsl * -1
-    print("Falta {} anos para você se alistar.".format(neg))
+    print("left {} year to you enlist.".format(neg))
 elif rsl == 0:
-    print("Está na sua hora de se alistar.Você ja tem 18.")
+    print("It's time to inlist.you're 18.")
 elif rsl > 0:
-    print("Você ja se alistou à {} ano.".format(rsl))
+    print("you already inlist yourself inlist {} years ago.".format(rsl))
 
 
 

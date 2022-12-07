@@ -1,18 +1,18 @@
-casa = float(input("\033[1;34mDigite o valor da casa: R$"))
-salario = float(input("\033[1;34mDigite o valor do seu salário: R$"))
-anos = int(input("\033[1;34mEm Quantos anos você vai pagar a casa: "))
+house = float(input("\033[1;34mtype value of your house: R$"))
+wage = float(input("\033[1;34mtype value of your wage: R$"))
+years = int(input("\033[1;34mEmHow many years do you pay this house: "))
 
-valor = (casa / anos) / 12
-salario30 = (salario * 0.30)
-
-
+value = (house / years) / 12
+wage30 = (wage * 0.30)
 
 
-if  salario30 >=  valor :
-    print("\033[1;32m Você pode pagar isso. ")
-    print("\033[1;32m A prestação mensal a pagar será {}R$ em {} anos".format(valor, anos))
+
+
+if  wage30 >=  value :
+    print("\033[1;32m you can pay this. ")
+    print("\033[1;32m the monthly installment to pay will be {}$ and {} years".format(value, years))
 else:
-    print("A prestação sera de {}R$ em {} anos".format(valor, anos))
-    print("\033[1;31mVocê não pode pagar isso nesse total de anos")
-    print("\033[1;31mEmprestimo negado")
+    print("the monthly installment to pay will be {}$ and {} years".format(value, years))
+    print("\033[1;31myou can't pay this")
+    print("\033[1;31mLoan denied")
 

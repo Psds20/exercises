@@ -1,9 +1,9 @@
-viagem = float(input("Digite a distancia da sua viagem em km: "))
+travel = float(input("type the distance at your travel in km: "))
 
-if viagem < 200:
-   rsl = viagem * 0.50
-   print("O valor a pagar na viagem é {}R$".format(rsl))
+if travel < 200:
+   rsl = travel * 0.50
+   print("The value to pay in the travel is{}$".format(rsl))
 else:
-    rsl = viagem * 0.45
-    print('O valor a pagar na viagem é {}R$'.format(rsl))
+    rsl = travel * 0.45
+    print("The value to pay in the travel is{}$".format(rsl))
 print("_______________________________________________")
