@@ -1,8 +1,8 @@
-frase = str(input("Digite uma frase: ").upper().strip().replace(" ", ""))
+frase = str(input("type a phrase: ").upper().strip().replace(" ", ""))
 if frase[::-1] == frase:
-    print("A frase é um palindromo.")
+    print("the frase is a palindrome.")
 else:
-    print("A frase não é um palindromo")
+    print("the frase isn't a palindrome.")
 
 
 

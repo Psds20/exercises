@@ -1,4 +1,4 @@
-n1 = int(input("Digite um número: "))
+n1 = int(input("type a number: "))
 tot = 0
 for c in range(1, n1 + 1):
 
@@ -8,10 +8,10 @@ for c in range(1, n1 + 1):
         tot += 1
     else:
         print("\033[31m", c, end=" ")
-print("\n\033[mO número {} foi divido {} vezes".format(n1, tot))
+print("\n\033[mthe number {} was divide {} times".format(n1, tot))
 
 if tot == 2:
-    print("O número é primo.")
+    print("The number is prime.")
 
 else:
-    print("O número não é primo.")
+    print("The number isn't prime.")

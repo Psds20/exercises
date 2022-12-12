@@ -1,10 +1,10 @@
 
-lista = []
+list1 = []
 for c in range(1, 6):
-    peso = float(input("Digite o seu peso: "))
-    lista.append(peso)
-print("O maior peso é {}".format(max(lista)))
-print("O menor peso é {}".format(min(lista)))
+    peso = float(input("type your weight: "))
+    list1.append(peso)
+print("The higher weight is {}".format(max(list1)))
+print("the lower weight is {}".format(min(list1)))
 
 
 

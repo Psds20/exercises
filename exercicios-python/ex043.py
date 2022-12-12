@@ -1,15 +1,15 @@
-altura = float(input("Digite a sua altura: "))
-peso = float(input("Digite o seu peso: "))
+height = float(input("type your height: "))
+weight = float(input("type your weight: "))
 
-resultado = peso / (altura ** 2)
+result = weight / (height ** 2)
 
-if resultado < 18.5:
-    print("Você está ABAIXO DO PESO com imc de {}".format(resultado))
-elif resultado < 25:
-    print("Você está no PESO IDEAL com imc de {}".format(resultado))
-elif resultado < 30:
-    print("Você está com SOBREPESO com imc de {}".format(resultado))
-elif resultado < 40:
-    print("Você está com OBESIDADE com imc de {}".format(resultado))
+if result < 18.5:
+    print("you're below of your BMI  of {}".format(result))
+elif result < 25:
+    print("You're in ideal weight with BMI of {}".format(result))
+elif result < 30:
+    print("You're in overweight with BMI of {}".format(result))
+elif result < 40:
+    print("You're in obesity with imc BMI of {}".format(result))
 else:
-    print("Você está com OBESIDADE MORBIDA com imc de {}".format(resultado))
+    print("You're in morbid obesity with imc BMI of {}".format(result))
