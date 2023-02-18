@@ -16,6 +16,7 @@ public class Calc_app {
 
 	private JFrame frame;
 	private JTextField textField;
+	JButton[] numeros = new JButton[10];
 
 	/**
 	 * Launch the application.
@@ -57,95 +58,107 @@ public class Calc_app {
 		frame.getContentPane().add(textField);
 
 		textField.setColumns(10);
-
-		JButton btnNewButton_1_4_11 = new JButton("0");
-		JButton btnNewButton_1_4_6 = new JButton("1");
-		JButton btnNewButton_1_4_7 = new JButton("2");
-		JButton btnNewButton_1_4_8 = new JButton("3");
-		JButton btnNewButton_1_4_1 = new JButton("4");
-		JButton btnNewButton_1_4_2 = new JButton("5");
-		JButton btnNewButton_1_4_3 = new JButton("6");
-		JButton btnNewButton_1_4 = new JButton("7");
-		JButton btnNewButton_1_5 = new JButton("8");
-		JButton btnNewButton_1_2 = new JButton("9");
-		JButton btnNewButton_1_4_12 = new JButton("+");
-		JButton btnNewButton_1_4_13 = new JButton("-");
-		JButton btnNewButton_1 = new JButton("*");
-		JButton btnNewButton = new JButton("/");
-		JButton btnNewButton_1_1 = new JButton("^");
-		JButton btnNewButton_1_2_1 = new JButton("=");
-		JButton btnNewButton_1_1_1 = new JButton("C");
-
-		btnNewButton.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton.setBounds(10, 74, 77, 44);
-		frame.getContentPane().add(btnNewButton);
-
-		btnNewButton_1.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1.setBounds(104, 74, 77, 44);
-		frame.getContentPane().add(btnNewButton_1);
-
-		btnNewButton_1_1.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_1.setBounds(202, 74, 76, 44);
-		frame.getContentPane().add(btnNewButton_1_1);
-
-		btnNewButton_1_2.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_2.setBounds(201, 129, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_2);
-
-		btnNewButton_1_4.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4.setBounds(10, 129, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4);
-
-		btnNewButton_1_5.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_5.setBounds(104, 129, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_5);
-
-		btnNewButton_1_4_1.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_1.setBounds(10, 184, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_1);
-
-		btnNewButton_1_4_2.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_2.setBounds(104, 184, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_2);
-
-		btnNewButton_1_4_3.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_3.setBounds(201, 184, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_3);
-
-		btnNewButton_1_4_6.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_6.setBounds(10, 239, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_6);
-
-		btnNewButton_1_4_7.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_7.setBounds(104, 239, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_7);
-
-		btnNewButton_1_4_11.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_11.setForeground(Color.BLACK);
-
-		btnNewButton_1_4_12.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_12.setBounds(104, 294, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_12);
-
-		btnNewButton_1_4_13.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_13.setBounds(201, 294, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_13);
-
-		btnNewButton_1_4_8.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_4_8.setBounds(201, 239, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_8);
-
-		btnNewButton_1_4_11.setBounds(10, 294, 77, 44);
-		frame.getContentPane().add(btnNewButton_1_4_11);
 		
-		btnNewButton_1_2_1.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_2_1.setBounds(288, 129, 77, 209);
-		frame.getContentPane().add(btnNewButton_1_2_1);
 		
-		btnNewButton_1_1_1.setBackground(UIManager.getColor("Button.shadow"));
-		btnNewButton_1_1_1.setBounds(288, 74, 76, 44);
-		frame.getContentPane().add(btnNewButton_1_1_1);
+		for(int c = 0; c< 10; c++) {
+			
+			
+			
+		}
+		
+		
 
+		JButton btn0 = new JButton("0");
+		JButton btn1 = new JButton("1");
+		JButton btn2 = new JButton("2");
+		JButton btn3 = new JButton("3");
+		JButton btn4 = new JButton("4");
+		JButton btn5 = new JButton("5");
+		JButton btn6 = new JButton("6");
+		JButton btn7 = new JButton("7");
+		JButton btn8 = new JButton("8");
+		JButton btn9 = new JButton("9");
+		JButton btnmais = new JButton("+");
+		JButton btnmenos = new JButton("-");
+		JButton btnmulti = new JButton("*");
+		JButton btndiv = new JButton("/");
+		JButton btnpot = new JButton("^");
+		JButton btnigual = new JButton("=");
+		JButton btnC = new JButton("C");
+
+		btn0.setBackground(UIManager.getColor("Button.shadow"));
+		btn0.setBounds(10, 74, 77, 44);
+		frame.getContentPane().add(btn0);
+
+		btn1.setBackground(UIManager.getColor("Button.shadow"));
+		btn1.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn1);
+
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+
+		btn3.setBackground(UIManager.getColor("Button.shadow"));
+		btn3.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn3);
+		
+		
+		btn4.setBackground(UIManager.getColor("Button.shadow"));
+		btn4.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn4);
+
+		btn5.setBackground(UIManager.getColor("Button.shadow"));
+		btn5.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn5);
+		
+		
+		btn6.setBackground(UIManager.getColor("Button.shadow"));
+		btn6.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn6);
+
+		btn7.setBackground(UIManager.getColor("Button.shadow"));
+		btn7.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn7);
+
+		btn8.setBackground(UIManager.getColor("Button.shadow"));
+		btn8.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn8);
+		
+		btn9.setBackground(UIManager.getColor("Button.shadow"));
+		btn9.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn9);
+
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+		
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+		
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+		
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+		
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+		
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
+		
+		btn2.setBackground(UIManager.getColor("Button.shadow"));
+		btn2.setBounds(104, 74, 77, 44);
+		frame.getContentPane().add(btn2);
 		
 		
 		btnNewButton_1_1_1.addActionListener(new ActionListener() {
