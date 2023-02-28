@@ -20,8 +20,9 @@ private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/agenda";
 //conexão com o banco de dados
 
 public static Connection CreateConnectionToMySQL() throws Exception {
-	//faz com que a classe seja carregada pela JVM
-	Class.forName("com.mysql.jdbc.Driver");
+	//faz com que a classe seja carregada pela JVM	  
+	 Class.forName("com.mysql.jdbc.Driver");
+	
 	
 	//cria a conexão com o banco de dados
 	Connection connection = DriverManager.getConnection(DATABASE_URL, USERNAME, PASSWORD);
