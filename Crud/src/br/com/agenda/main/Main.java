@@ -29,6 +29,7 @@ public class Main {
         
         
         
+        
        /* 
         for(Contato c:contatodao.Getcontatos()) {
         	System.out.println("Nome:"+c.getNome()+"\nidade:"+c.getIdade());
