@@ -15,19 +15,27 @@ public class Main {
 		ContatoDAO contatodao = new ContatoDAO();
 		Contato contato = new Contato();
 
-		contato.setNome("julia");
+		contato.setNome("julia silva");
 		contato.setIdade(22);
         contato.setDatadecadastro(new Date());
+        contato.setId(4);
         
-        contatodao.save(contato);
+        
+        contatodao.delete(contato);
+        
+        //contatodao.update(contato);
+       // contatodao.save(contato);
 		
         
+        
+        
+       /* 
         for(Contato c:contatodao.Getcontatos()) {
         	System.out.println("Nome:"+c.getNome()+"\nidade:"+c.getIdade());
         	
         	
         }
-        
+        */
 		
 	}
 
