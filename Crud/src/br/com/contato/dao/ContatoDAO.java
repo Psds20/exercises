@@ -24,6 +24,7 @@ public class ContatoDAO {
 	public void save(Contato contato) {
 
 		String sql = "INSERT INTO contatos(nome, idade, datacadastro) VALUES(?, ?, ?)";
+		
 
 
 		Connection conn = null;
@@ -33,7 +34,7 @@ public class ContatoDAO {
 		try {
 
 
-			//Criar uma conexão com o banco de dados
+			//Criar uma conexï¿½o com o banco de dados
 			conn = ConnectionFactory.CreateConnectionToMySQL();
 
 
@@ -41,7 +42,7 @@ public class ContatoDAO {
 			pstm = conn.prepareStatement(sql);
 
 
-			//Adicionar os valores que são esperados pela query
+			//Adicionar os valores que sï¿½o esperados pela query
 			pstm.setString(1, contato.getNome());
 			pstm.setInt(2, contato.getIdade());
 			pstm.setDate(3,  new Date(contato.getDatadecadastro().getTime()));
@@ -55,7 +56,7 @@ public class ContatoDAO {
 			e.printStackTrace();
 
 		}finally {
-			//fechar as conexões
+			//fechar as conexï¿½es
 			try {
 
 				if(pstm != null){
@@ -91,7 +92,7 @@ public class ContatoDAO {
 		
 		
 		try {
-			//Criar conexão SQL
+			//Criar conexï¿½o SQL
 			
 			conn = ConnectionFactory.CreateConnectionToMySQL();
 			
@@ -188,25 +189,25 @@ public class ContatoDAO {
 			}
 		}catch(Exception e) {
 			e.printStackTrace();		
-		}finally {
-			try {
-				if(pstm != null) {
-					pstm.close();
+			}finally {
+				try {
+					if(pstm != null) {
+						pstm.close();
+					}
+					if(conn != null) {
+						conn.close();
+	
+					}
+					if(rset != null) {
+						rset.close();
+					}
+	
+				}catch(Exception e) {
+					e.printStackTrace();
 				}
-				if(conn != null) {
-					conn.close();
-
-				}
-				if(rset != null) {
-					rset.close();
-				}
-
-			}catch(Exception e) {
-				e.printStackTrace();
+				
 			}
-			return contatos;
-		}
-
+		return contatos;
 	}
 
 

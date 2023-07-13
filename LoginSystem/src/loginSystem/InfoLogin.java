@@ -4,21 +4,27 @@ import java.util.HashMap;
 
 public class InfoLogin {
 	
-	HashMap<String, String> loginInfo = new HashMap<String, String>();
+	private String userID;
+	private String password;
+	
+	public String getUserID() {
+		return userID;
+	}
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	
 	
-	InfoLogin(){
-		
-		loginInfo.put("pedro", "12345");
-		loginInfo.put("dox", "dox123");
-		loginInfo.put("jam", "janela");
-		
-	}
-	public HashMap getLoginInfo() {
-		
-		return loginInfo;
-		
-	}
+
+	
+	
+	
 	
 	
 	
